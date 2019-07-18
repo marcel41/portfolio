@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class = "navbar-brand" href="#"><img src="img/logo.png">
+	</a>
+
+	<button  class = "navbar-toggler" type = "button" data-toggle ="collapse" data-target ="#navbarResponsive">
+	         <span class = "navbar-toggler-icon"></span>
+	     </button>
+			 <div class="collapse navbar-collapse" id="navbarResponsive">
+				 <!-- the followins are the links for the webpage
+				 -->
+				   <ul class = "navbar-nav ml-auto">
+								<li class="nav-item active" >
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item active" >
+									<a class="nav-link" href="aboutme.html">About me</a>
+								</li>
+								<li class="nav-item active" >
+									<a class="nav-link" href="projects.html">Projects</a>
+								</li>
+								<li class="nav-item active" >
+									<a class="nav-link" href="index.html#connect">Connect</a>
+								</li>
+					  </ul>
+					</div>
+</div>
+</nav>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>catchGameFPGA</h2>
+			<p>I am using a FPGA from the university of manchester, I have developed a little game that uses concepts such as: Interrupts, Systems services routines, and I/O interface. I have used an I2C protocol for communication between matrixLEd 8bit and simple data structure for representing the different states that you could have in the game.</p>
+			<br>
+			<a href="https://github.com/marcel41/catchGameFPGA" class="btn btn-primary">See Code</a>
+		</div>
+		<div class="col-lg-6">
+			<div id="Container"
+			style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+			<iframe id="ViostreamIframe"
+			width="100%" height="100%"
+			src="https://www.youtube.com/embed/g62OTehRe5U"
+			frameborder="0" allowfullscreen=""
+			style="position:absolute; top:0; left: 0"></iframe>
+			</div>
+		</div>
+		<hr>
+		<div class="col-md-12 col-lg-6">
+			<h2>droneGUI</h2>
+			<p>Ass part of the social engagement from the school of computer science, I develop a gui interface in python for communication between a drone and a laptop.</p>
+			<p>PD: If you need the code please contact me</p>
+			<br>
+			<a href="index.html#connect" class="btn btn-primary">Connect</a>
+		</div>
+		<div class="col-lg-6">
+			<div id="Container"
+			style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+			<iframe id="ViostreamIframe"
+			width="100%" height="100%"
+			src="https://www.youtube.com/embed/MVb7IYGdYac"
+			frameborder="0" allowfullscreen=""
+			style="position:absolute; top:0; left: 0"></iframe>
+			</div>
+		</div>
+		<hr>
+		<div class="col-md-12 col-lg-6">
+			<h2>snakeGame</h2>
+			<p>I had to code the logic behind the snakeGame in java 7, implementing new features for the game. such as trees, speed levels and an "intellegent" bot that will run away from the snake. </p>
+			<br>
+			<a href="https://github.com/marcel41/SnakeGame" class="btn btn-primary">See Code</a>
+		</div>
+		<div class="col-lg-6">
+			<div id="Container"
+			style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+			<iframe id="ViostreamIframe"
+			width="100%" height="100%"
+			src="https://www.youtube.com/embed/hdjUN4KF8Yo"
+			frameborder="0" allowfullscreen=""
+			style="position:absolute; top:0; left: 0"></iframe>
+			</div>
+		</div>
+		<hr>
+		<div class="col-md-12 col-lg-6">
+			<h2>aChatApplication</h2>
+			<p>This was an application that I needed to develop in my mobile system course, where I have the opportunity to use certain techniques to:</p>
+<ul>
+<li>Create an application that could chat with any user that is connect in the the same server.</li>
+<li>Understanding android studio.</li>
+<li>Encrypt and decode messages.</li>
+<li>Play sound and fix distortion in speeches.</li>
+<li>Record sound and sending the sound through bit-stream form.</li>
+</ul>
+<p>PD: the application shown in the video is a simple version if you  would like to see all the features please contact me</p>
+			<br>
+			<a href="https://github.com/marcel41/aChatApplication" class="btn btn-primary">See Code</a>
+		</div>
+		<div class="col-lg-6">
+			<div id="Container"
+			style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+			<iframe id="ViostreamIframe"
+			width="100%" height="100%"
+			src="https://www.youtube.com/embed/kJOANoBmWG8"
+			frameborder="0" allowfullscreen=""
+			style="position:absolute; top:0; left: 0"></iframe>
+			</div>
+		</div>
+		<hr>
+		<div class="col-md-12 col-lg-6">
+			<h2>Tetris online</h2>
+			<p>I decided to design a multiplayer tetris with the help of tutorials from the Meth Method channel, where I learned javascript ,node.js and reinforce my knowledge in OOP  </p>
+			<br>
+			<a href="https://github.com/marcel41/TetrisGameMultiplayer" class="btn btn-primary">See Code</a>
+		</div>
+		<div class="col-lg-6">
+			<div id="Container"
+			style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+			<iframe id="ViostreamIframe"
+			width="100%" height="100%"
+			src="https://www.youtube.com/embed/-YzvPkxYcaw"
+			frameborder="0" allowfullscreen=""
+			style="position:absolute; top:0; left: 0"></iframe>
+			</div>
+		</div>
+		<hr>
+		<div class="col-md-12 col-lg-6">
+			<h2>No what you were looking for?</h2>
+			<p>Please free to look into my github for more projects and contact me if you would like to have more information about them.</p>
+			<br>
+			<a href="index.html#connect" class="btn btn-primary"> Connect</a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="img/logolight.png">
+			<hr class="light">
+				<p> 414-141-414</p>
+				<p> marcel_moran41@hotmail.com</p>
+				<p> 41 street cube</p>
+				<p> Cambridge, CP1 237</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Opening times</h4>
+				<hr class="light">
+				<p> Monday to Friday: 9am - 5pm</p>
+				<p> saturday: 10am - 4pm</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Service Area</h4>
+				<hr class="light">
+				<p> Cambridge, CP1 237, UK</p>
+				<p> Colon y 13ava norte,Machala, EC</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy;EcuTech+.com</h5>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--- Check out my course on Udemy!
+<div class="udemy-course" style="position: fixed; bottom: 0; right: 0; margin-bottom: -5px; z-index: 100;">
+	<a href="http://bit.ly/advanced-bootstrap-course" target="_blank" style="z-index: 999!important; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/nuno-udemy-banner.png" style="max-width: 100%; min-width: 100%;"></a>
+</div>
+ -->
