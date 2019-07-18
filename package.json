@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d portfolio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcel41/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcel41/portfolio/issues"
+  },
+  "homepage": "https://marcel41.github.io/portfolio",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
